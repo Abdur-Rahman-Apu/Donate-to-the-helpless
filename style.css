@@ -33,7 +33,7 @@ body{
     display: inline-block;
     margin-top: 20px;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 12px;
     background-color: orange;
     color: white;
     font-weight: bold;
@@ -55,23 +55,29 @@ body{
 
 .select-amount div{
     margin-top: 30px;
-    height: 120px;
+    height: 100px;
     width: 120px;
     margin-left: 20px;
     background-color: #f5f6fa;
+    border-radius: 5px;
 }
 
 .select-amount div h2{
-    padding-top: 20px;
+    padding-top: 15px;
 }
-
+.select-amount .option-2{
+    color: #FF5959;
+    background-color: rgba(255, 89, 89,0.2);
+    border: 2px solid #FF5959;
+}
 .your-amount{
     display: block;
-    border-bottom-color: 1px solid black;
     margin-top: 40px;
     margin-left: 300px;
     width: 54%;
     padding: 10px;
+    color: gray;
+    border: 0.1px solid gray;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -83,3 +89,119 @@ body{
 }
 
 /* donate plan part start */
+
+.donate-plan{
+    margin-top: 100px;
+    
+}
+
+.donate-plan h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.donate-plan p{
+    text-align: center;
+}
+
+.donate-plan .plan-items{
+    display: flex;
+    margin-top: 40px;
+}
+
+.donate-plan .plan-items p{
+    text-align: left;
+}
+
+.plan-1, .plan-2, .plan-3{
+    width: 26%;
+    height: 250px;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    
+}
+
+.plan-1{
+    margin-left: 100px;
+    margin-right: 20px;
+    background-color: rgba(79, 157, 166,0.3);
+}
+
+.plan-2{
+    margin-right: 20px;
+    background-color: rgba(255, 89, 89,0.3);
+}
+
+.plan-3{
+    margin-right: 100px;
+    background-color: rgba(255, 244, 214,0.7);
+}
+
+/* subscribe section */
+
+.subscribe-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.subscribe-section h1{
+    font-size: 30px;
+}
+
+.subscribe-area{
+    background-color: #FFF4D6;
+    height: 200px;
+    width: 70%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.subscribe-area .enter-email, .subscribe-area .subscribe-btn{
+    display: inline;
+    margin-top: 80px;
+   
+}
+
+.subscribe-area .enter-email{
+    padding: 10px;
+    width: 220px;
+    background-color: #D9D9D9;
+    border: none;
+    margin-right: 0;
+    
+    
+   
+}
+
+.subscribe-area .subscribe-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    font-size: 14px;
+    margin-left: -5px;
+  
+}
+
+/* footer section */
+
+footer{
+    background-color: black;
+    text-align: center;
+    height: 180px;
+}
+
+footer h1{
+    padding-top: 45px;
+    color: #FF5959;
+    font-style: italic;
+}
+
+footer p{
+    color: white;
+    margin-bottom: 0;
+}
