@@ -139,11 +139,14 @@ body{
     background-color: rgba(255, 244, 214,0.7);
 }
 
+.plan-1 h3, .plan-2 h3, .plan-3 h3{
+    padding-left: 0;
+}
 
 /* mission area */
 
 .mission-area{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .mission-area h1{
@@ -180,7 +183,9 @@ body{
     margin-left: 15px;
 }
 
-
+.mission-items .track-earn p{
+    padding-left: 0;
+}
 
 .mission-items  p, h3{
    padding-left: 10px;
@@ -259,14 +264,15 @@ body{
 
 footer{
     background-color: black;
+    font-family: 'Lobster Two', cursive;
     text-align: center;
     height: 180px;
+    
 }
 
 footer h1{
     padding-top: 45px;
     color: #FF5959;
-    font-style: italic;
 }
 
 footer p{
