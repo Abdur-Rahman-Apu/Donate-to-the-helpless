@@ -139,6 +139,73 @@ body{
     background-color: rgba(255, 244, 214,0.7);
 }
 
+
+/* mission area */
+
+.mission-area{
+    margin-top: 150px;
+}
+
+.mission-area h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.mission-area .mission-items{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 170px;
+    
+}
+.mission-1, .mission-2, .mission-3{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+.mission-items .mission-1{
+    margin-right: 20px;
+    
+}
+
+.mission-items .track-earn{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 50%;
+    color: white;
+    background-color: #4cd137;
+    margin-left: 15px;
+}
+
+
+
+.mission-items  p, h3{
+   padding-left: 10px;
+}
+
+.mission-items h3{
+    color: #e84118;
+}
+
+.mission-items .earn-amount{
+    display: inline-block;
+}
+.mission-items .mission-2{
+    margin-right: 20px;
+}
+.mission-items .mission-3{
+    margin-right: 20px;
+}
+
+.mission-area .mission-items img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
 /* subscribe section */
 
 .subscribe-section{
@@ -163,6 +230,7 @@ body{
 .subscribe-area .enter-email, .subscribe-area .subscribe-btn{
     display: inline;
     margin-top: 80px;
+    
    
 }
 
@@ -172,9 +240,8 @@ body{
     background-color: #D9D9D9;
     border: none;
     margin-right: 0;
-    
-    
-   
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 .subscribe-area .subscribe-btn{
@@ -184,7 +251,8 @@ body{
     padding: 10px 30px;
     font-size: 14px;
     margin-left: -5px;
-  
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 /* footer section */
