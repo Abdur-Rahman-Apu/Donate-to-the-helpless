@@ -25,7 +25,7 @@ body{
 .header .header-items h1{
     margin-top: 0;
     font-size: 60px;
-    color: white;
+    color: #ffffff;
     
 }
 
@@ -74,7 +74,7 @@ body{
     display: block;
     margin-top: 40px;
     margin-left: 300px;
-    width: 54%;
+    width: 53%;
     padding: 10px;
     color: gray;
     border: 0.1px solid gray;
@@ -192,11 +192,12 @@ body{
 }
 
 .mission-items h3{
-    color: #e84118;
+    color: #706fd3;
 }
 
 .mission-items .earn-amount{
     display: inline-block;
+    font-weight: bold;
 }
 .mission-items .mission-2{
     margin-right: 20px;
