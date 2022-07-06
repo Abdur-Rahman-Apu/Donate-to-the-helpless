@@ -236,8 +236,6 @@ body{
 .subscribe-area .enter-email, .subscribe-area .subscribe-btn{
     display: inline;
     margin-top: 80px;
-    
-   
 }
 
 .subscribe-area .enter-email{
@@ -245,6 +243,7 @@ body{
     width: 220px;
     background-color: #D9D9D9;
     border: none;
+    font-weight: bold;
     margin-right: 0;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
